@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eGgDAK6nnj0=",
+  "success": true,
+  "projectFilePath": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\EndPoints\\IDP.EndPoints.WebAPI\\IDP.EndPoints.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.kabiripour\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\a.kabiripour\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

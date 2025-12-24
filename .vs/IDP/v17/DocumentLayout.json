@@ -1,0 +1,482 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Alireza\\Projects\\Personal\\IDP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.applicationservice\\user\\dtos\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|solutionrelative:src\\core\\idp.core.applicationservice\\user\\dtos\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.applicationservice\\user\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|solutionrelative:src\\core\\idp.core.applicationservice\\user\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}|src\\EndPoints\\IDP.EndPoints.WebAPI\\IDP.EndPoints.WebAPI.csproj|e:\\alireza\\projects\\personal\\idp\\src\\endpoints\\idp.endpoints.webapi\\controllers\\user\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}|src\\EndPoints\\IDP.EndPoints.WebAPI\\IDP.EndPoints.WebAPI.csproj|solutionrelative:src\\endpoints\\idp.endpoints.webapi\\controllers\\user\\identitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.applicationservice\\authentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|solutionrelative:src\\core\\idp.core.applicationservice\\authentication\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.applicationservice\\authentication\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|solutionrelative:src\\core\\idp.core.applicationservice\\authentication\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.applicationservice\\authentication\\dtos\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|solutionrelative:src\\core\\idp.core.applicationservice\\authentication\\dtos\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.applicationservice\\authentication\\dtos\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C141BDB5-EF4C-4F3D-8ADC-2213E6878A59}|src\\Core\\IDP.Core.ApplicationService\\IDP.Core.ApplicationService.csproj|solutionrelative:src\\core\\idp.core.applicationservice\\authentication\\dtos\\login\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB463DF-455E-441F-A320-B85100D3FC3C}|src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\IDP.Infra.Persistence.Sql.csproj|e:\\alireza\\projects\\personal\\idp\\src\\infra\\persistence\\idp.infra.persistence.sql.command\\refreshtokens\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB463DF-455E-441F-A320-B85100D3FC3C}|src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\IDP.Infra.Persistence.Sql.csproj|solutionrelative:src\\infra\\persistence\\idp.infra.persistence.sql.command\\refreshtokens\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB463DF-455E-441F-A320-B85100D3FC3C}|src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\IDP.Infra.Persistence.Sql.csproj|e:\\alireza\\projects\\personal\\idp\\src\\infra\\persistence\\idp.infra.persistence.sql.command\\users\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB463DF-455E-441F-A320-B85100D3FC3C}|src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\IDP.Infra.Persistence.Sql.csproj|solutionrelative:src\\infra\\persistence\\idp.infra.persistence.sql.command\\users\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB463DF-455E-441F-A320-B85100D3FC3C}|src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\IDP.Infra.Persistence.Sql.csproj|e:\\alireza\\projects\\personal\\idp\\src\\infra\\persistence\\idp.infra.persistence.sql.command\\users\\configs\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB463DF-455E-441F-A320-B85100D3FC3C}|src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\IDP.Infra.Persistence.Sql.csproj|solutionrelative:src\\infra\\persistence\\idp.infra.persistence.sql.command\\users\\configs\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8663B1A3-3578-461B-9FF1-9A45D12DA852}|src\\Core\\IDP.Core.Domain\\IDP.Core.Domain.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.domain\\sessions\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8663B1A3-3578-461B-9FF1-9A45D12DA852}|src\\Core\\IDP.Core.Domain\\IDP.Core.Domain.csproj|solutionrelative:src\\core\\idp.core.domain\\sessions\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}|src\\EndPoints\\IDP.EndPoints.WebAPI\\IDP.EndPoints.WebAPI.csproj|e:\\alireza\\projects\\personal\\idp\\src\\endpoints\\idp.endpoints.webapi\\controllers\\authentication\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}|src\\EndPoints\\IDP.EndPoints.WebAPI\\IDP.EndPoints.WebAPI.csproj|solutionrelative:src\\endpoints\\idp.endpoints.webapi\\controllers\\authentication\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}|src\\EndPoints\\IDP.EndPoints.WebAPI\\IDP.EndPoints.WebAPI.csproj|e:\\alireza\\projects\\personal\\idp\\src\\endpoints\\idp.endpoints.webapi\\controllers\\token\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}|src\\EndPoints\\IDP.EndPoints.WebAPI\\IDP.EndPoints.WebAPI.csproj|solutionrelative:src\\endpoints\\idp.endpoints.webapi\\controllers\\token\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB463DF-455E-441F-A320-B85100D3FC3C}|src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\IDP.Infra.Persistence.Sql.csproj|e:\\alireza\\projects\\personal\\idp\\src\\infra\\persistence\\idp.infra.persistence.sql.command\\common\\idpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB463DF-455E-441F-A320-B85100D3FC3C}|src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\IDP.Infra.Persistence.Sql.csproj|solutionrelative:src\\infra\\persistence\\idp.infra.persistence.sql.command\\common\\idpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8663B1A3-3578-461B-9FF1-9A45D12DA852}|src\\Core\\IDP.Core.Domain\\IDP.Core.Domain.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.domain\\refreshtokens\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8663B1A3-3578-461B-9FF1-9A45D12DA852}|src\\Core\\IDP.Core.Domain\\IDP.Core.Domain.csproj|solutionrelative:src\\core\\idp.core.domain\\refreshtokens\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8663B1A3-3578-461B-9FF1-9A45D12DA852}|src\\Core\\IDP.Core.Domain\\IDP.Core.Domain.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.domain\\users\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8663B1A3-3578-461B-9FF1-9A45D12DA852}|src\\Core\\IDP.Core.Domain\\IDP.Core.Domain.csproj|solutionrelative:src\\core\\idp.core.domain\\users\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8663B1A3-3578-461B-9FF1-9A45D12DA852}|src\\Core\\IDP.Core.Domain\\IDP.Core.Domain.csproj|e:\\alireza\\projects\\personal\\idp\\src\\core\\idp.core.domain\\refreshtokens\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8663B1A3-3578-461B-9FF1-9A45D12DA852}|src\\Core\\IDP.Core.Domain\\IDP.Core.Domain.csproj|solutionrelative:src\\core\\idp.core.domain\\refreshtokens\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 46,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:23:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterResponse.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\User\\DTOs\\RegisterResponse.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.ApplicationService\\User\\DTOs\\RegisterResponse.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\User\\DTOs\\RegisterResponse.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.ApplicationService\\User\\DTOs\\RegisterResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:44:52.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\User\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.ApplicationService\\User\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\User\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.ApplicationService\\User\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:43:25.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\Authentication\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.ApplicationService\\Authentication\\Interfaces\\IAuthService.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\Authentication\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.ApplicationService\\Authentication\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T20:00:38.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\Authentication\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.ApplicationService\\Authentication\\Services\\AuthService.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\Authentication\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.ApplicationService\\Authentication\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:58:10.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\Authentication\\DTOs\\Login\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.ApplicationService\\Authentication\\DTOs\\Login\\LoginRequest.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\Authentication\\DTOs\\Login\\LoginRequest.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.ApplicationService\\Authentication\\DTOs\\Login\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:57:12.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\RefreshTokens\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\RefreshTokens\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\RefreshTokens\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\RefreshTokens\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:32:21.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Users\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Users\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Users\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Users\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:32:16.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserConfig.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Users\\Configs\\UserConfig.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Users\\Configs\\UserConfig.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Users\\Configs\\UserConfig.cs",
+              "RelativeToolTip": "src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Users\\Configs\\UserConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:29:24.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Session.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.Domain\\Sessions\\Entities\\Session.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.Domain\\Sessions\\Entities\\Session.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.Domain\\Sessions\\Entities\\Session.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.Domain\\Sessions\\Entities\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:26:33.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.Domain\\RefreshTokens\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.Domain\\RefreshTokens\\Interfaces\\IRefreshTokenRepository.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.Domain\\RefreshTokens\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.Domain\\RefreshTokens\\Interfaces\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:16:50.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.Domain\\Users\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.Domain\\Users\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.Domain\\Users\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.Domain\\Users\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:47:54.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.Domain\\RefreshTokens\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.Domain\\RefreshTokens\\Entities\\RefreshToken.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.Domain\\RefreshTokens\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.Domain\\RefreshTokens\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:45:17.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IdentityController.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\User\\IdentityController.cs",
+              "RelativeDocumentMoniker": "src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\User\\IdentityController.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\User\\IdentityController.cs",
+              "RelativeToolTip": "src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\User\\IdentityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:17:56.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\Authentication\\DTOs\\Login\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "src\\Core\\IDP.Core.ApplicationService\\Authentication\\DTOs\\Login\\LoginResponse.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Core\\IDP.Core.ApplicationService\\Authentication\\DTOs\\Login\\LoginResponse.cs",
+              "RelativeToolTip": "src\\Core\\IDP.Core.ApplicationService\\Authentication\\DTOs\\Login\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T19:57:38.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IdpDbContext.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Common\\IdpDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Common\\IdpDbContext.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Common\\IdpDbContext.cs",
+              "RelativeToolTip": "src\\Infra\\Persistence\\IDP.Infra.Persistence.Sql.Command\\Common\\IdpDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:40:16.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\Token\\TokenController.cs",
+              "RelativeDocumentMoniker": "src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\Token\\TokenController.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\Token\\TokenController.cs",
+              "RelativeToolTip": "src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\Token\\TokenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:18:16.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\Authentication\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\Authentication\\AuthController.cs",
+              "ToolTip": "E:\\Alireza\\Projects\\Personal\\IDP\\src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\Authentication\\AuthController.cs",
+              "RelativeToolTip": "src\\EndPoints\\IDP.EndPoints.WebAPI\\Controllers\\Authentication\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:16:17.297Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
