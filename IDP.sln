@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C75A31F6-D7A6-469F-A824-E4D17F08E2D8}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.EndPoints.WebAPI", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{2A28023E-C56B-4AB3-B62B-675EC157F6D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Infra.Persistence.Sql", "src\Infra\Persistence\IDP.Infra.Persistence.Sql.Command\IDP.Infra.Persistence.Sql.csproj", "{CDB463DF-455E-441F-A320-B85100D3FC3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Infra.Persistence.Sql", "src\Infra\Persistence\IDP.Infra.Persistence.Sql\IDP.Infra.Persistence.Sql.csproj", "{801FEC98-8588-4B75-8BD9-25E25AAC2A59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,10 @@ Global
 		{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58A3DEE-E447-4214-B3F3-6BD10D239EEF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDB463DF-455E-441F-A320-B85100D3FC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDB463DF-455E-441F-A320-B85100D3FC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDB463DF-455E-441F-A320-B85100D3FC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDB463DF-455E-441F-A320-B85100D3FC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801FEC98-8588-4B75-8BD9-25E25AAC2A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801FEC98-8588-4B75-8BD9-25E25AAC2A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801FEC98-8588-4B75-8BD9-25E25AAC2A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801FEC98-8588-4B75-8BD9-25E25AAC2A59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +55,6 @@ Global
 		{8663B1A3-3578-461B-9FF1-9A45D12DA852} = {337DA23C-5742-495D-9A24-09D19947BC18}
 		{B58A3DEE-E447-4214-B3F3-6BD10D239EEF} = {558CBE79-480E-442A-B46D-FF201FB36396}
 		{2A28023E-C56B-4AB3-B62B-675EC157F6D3} = {CB3D5BE4-CE41-4486-BC06-D728758CC0C2}
-		{CDB463DF-455E-441F-A320-B85100D3FC3C} = {2A28023E-C56B-4AB3-B62B-675EC157F6D3}
+		{801FEC98-8588-4B75-8BD9-25E25AAC2A59} = {2A28023E-C56B-4AB3-B62B-675EC157F6D3}
 	EndGlobalSection
 EndGlobal
