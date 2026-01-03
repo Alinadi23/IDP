@@ -1,4 +1,4 @@
-﻿using IDP.Core.ApplicationService.Users.DTOs;
+﻿using IDP.Core.ApplicationService.Users.DTOs.Register;
 using IDP.Core.ApplicationService.Users.Interfaces;
 using IDP.Core.Domain.Users.Entities;
 using IDP.EndPoints.WebAPI.Common.Controller;
@@ -21,8 +21,12 @@ public class UserController : BaseController
     }
 
     [HttpPost("/user/register")]
-    public async Task<IActionResult> Register([FromBody] RegisterRequest request)
+    public async Task<IActionResult> Register([FromBody] RegisterViewModel viewModel)
     {
+        var request = new RegisterRequest
+        {
+            ViewModel = viewModel
+        };
         var result = await _userService.Register(request);
         return ActionResult(result);  
     }

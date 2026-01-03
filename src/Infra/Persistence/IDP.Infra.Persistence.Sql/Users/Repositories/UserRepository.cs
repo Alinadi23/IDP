@@ -1,20 +1,19 @@
-﻿using IDP.Core.Domain.Users.Interfaces;
+﻿using IDP.Core.Domain.Users.Entities;
+using IDP.Core.Domain.Users.Interfaces;
 using IDP.Infra.Persistence.Sql.Common;
 using Microsoft.EntityFrameworkCore;
 
 namespace IDP.Infra.Persistence.Sql.Users.Repositories;
-public class UserRepository : IUserRepository
+public class UserRepository : BaseRepository<User, IdpDbContext>, IUserRepository
 {
-    private readonly IdpDbContext _dbContext;
-
-    public UserRepository(IdpDbContext dbContext)
+    public UserRepository(IdpDbContext dbContext) : base(dbContext)
     {
-        _dbContext = dbContext;
     }
 
     public Task<bool> ExistsAsync(string username)
     {
-        return _dbContext.Users.AnyAsync(u => u.Username == username);
+        return _dbContext.UserCredentials
+            .AnyAsync(u => u.Username == username);
     }
 }
 

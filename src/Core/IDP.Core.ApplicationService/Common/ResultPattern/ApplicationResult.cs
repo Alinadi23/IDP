@@ -16,12 +16,11 @@ namespace IDP.Core.ApplicationService.Common.ResultPattern
         object? IApplicationResult.Data => Data;
         public string? Message { get; }
 
-        public ApplicationResult(ApplicationResultState state, T? data = default, string? message = null, List<Error> errors = null)
+        public ApplicationResult(ApplicationResultState state, T? data = default, string? message = null)
         {
             State = state;
             Data = data;
             Message = message;
-            Errors?.AddRange(errors);
         }
 
         public static ApplicationResult<T> Success(T data)
@@ -30,9 +29,6 @@ namespace IDP.Core.ApplicationService.Common.ResultPattern
 
         public static ApplicationResult<T> Fail(ApplicationResultState state, string? message = null)
             => new ApplicationResult<T>(state, default, message);
-
-        public static ApplicationResult<T> Fail(ApplicationResultState state, string? message = null, List<Error> errors = null)
-            => new ApplicationResult<T>(state, default, message, errors);
 
     }
 }

@@ -1,9 +1,10 @@
 ﻿using IDP.Core.ApplicationService.Authentication.DTOs.Login;
 using IDP.Core.ApplicationService.Common.DTOs;
 using IDP.Core.ApplicationService.Common.Enums;
+using IDP.Core.ApplicationService.Common.Interfaces;
 using IDP.Core.ApplicationService.Common.ResultPattern;
 using IDP.Core.ApplicationService.Resources;
-using IDP.Core.ApplicationService.Users.DTOs;
+using IDP.Core.ApplicationService.Users.DTOs.Register;
 using IDP.Core.ApplicationService.Users.Interfaces;
 using IDP.Core.Domain.Users.Entities;
 using IDP.Core.Domain.Users.Interfaces;
@@ -16,31 +17,25 @@ using System.Threading.Tasks;
 
 namespace IDP.Core.ApplicationService.Users.Services
 {
-    public class UserService : IUserService
+    public class UserService : IUserService, IApplicationService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly ICredentialTypeFactory _credentialTypeFactory;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(ICredentialTypeFactory credentialTypeFactory)
         {
-            _userRepository = userRepository;
+            _credentialTypeFactory = credentialTypeFactory;
         }
 
-        public async Task<ApplicationResult<LoginResponse>> Register(RegisterRequest request)
+        public async Task<ApplicationResult<RegisterResponse>> Register(RegisterRequest request)
         {
             var response = new BaseResponseModel<LoginResponse>();
-            var userExisted = await _userRepository.ExistsAsync(request.Email);
-            if (userExisted) 
-            {
-                return ApplicationResult<LoginResponse>.Fail(ApplicationResultState.ValidationError, GeneralResource.DuplicateUser);
-            }
+            var credentialType = _credentialTypeFactory.GetType(request.ViewModel.CredentialType);
+            var registerResult = await credentialType.Register(request);
 
-            var user = new User
-            {
-                Username = request.Email,
-                //PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password) 
-            };
 
-            return null;
+
+
+            return ApplicationResult<RegisterResponse>.Success(null);
         }
     }
 }
