@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDP.Core.ApplicationService.Authentication.DTOs.Login
+namespace IDP.Core.ApplicationService.Users.DTOs
 {
-    public class LoginRequest
+    public class RegisterRequest
     {
+        public string? UserName { get; set; }
         public string? Email { get; set; }
         public string? Password { get; set; }
-        public string? ReturnUrl { get; set; }
     }
 }

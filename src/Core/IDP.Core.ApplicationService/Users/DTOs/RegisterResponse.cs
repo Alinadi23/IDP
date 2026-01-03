@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDP.Core.ApplicationService.User.DTOs
+namespace IDP.Core.ApplicationService.Users.DTOs
 {
-    public class RegisterRequest
+    public class RegisterResponse
     {
     }
 }

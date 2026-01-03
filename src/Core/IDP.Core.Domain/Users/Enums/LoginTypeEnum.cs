@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDP.Core.ApplicationService.User.DTOs
+namespace IDP.Core.Domain.Users.Enums
 {
-    public class RegisterResponse
+    public enum LoginType
     {
+        Email = 1
     }
 }
