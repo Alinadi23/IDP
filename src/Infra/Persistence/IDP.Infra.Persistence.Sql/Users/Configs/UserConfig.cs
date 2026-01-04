@@ -10,5 +10,10 @@ public class UserConfig : IEntityTypeConfiguration<User>
     {
         builder.ToTable("Users");
         builder.HasKey(b => b.Id);
+
+        builder
+        .HasMany(u => u.UserCredentials)
+        .WithOne()
+        .HasForeignKey(c => c.UserId);
     }
 }

@@ -68,5 +68,23 @@ namespace IDP.Core.ApplicationService.Resources {
                 return ResourceManager.GetString("DuplicateUser", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to عملیات با موفقیت انجام شد.
+        /// </summary>
+        internal static string OpeationSuccess {
+            get {
+                return ResourceManager.GetString("OpeationSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to عملیات با خطا مواجه شد.
+        /// </summary>
+        internal static string OperationFailed {
+            get {
+                return ResourceManager.GetString("OperationFailed", resourceCulture);
+            }
+        }
     }
 }

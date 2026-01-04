@@ -6,6 +6,7 @@ using IDP.Infra.Persistence.Sql.Common;
 using IDP.Infra.Persistence.Sql.Users.Repositories;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,6 +45,8 @@ builder.Services.AddOpenIddict()
 
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddRepositoriesFromAssembly();
 builder.Services.AddServicesFromAssembly();
 
@@ -53,6 +56,15 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     {
         options.LoginPath = "/auth/login";
     });
+
+Log.Logger = new LoggerConfiguration()
+    .Enrich.FromLogContext()               
+    .WriteTo.Console()                     
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)  
+    .MinimumLevel.Information()            
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 var app = builder.Build();
 

@@ -120,4 +120,10 @@
   <data name="DuplicateUser" xml:space="preserve">
     <value>مشتری تکراری می باشد</value>
   </data>
+  <data name="OpeationSuccess" xml:space="preserve">
+    <value>عملیات با موفقیت انجام شد</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>عملیات با خطا مواجه شد</value>
+  </data>
 </root>

@@ -2,6 +2,7 @@
 using IDP.Core.ApplicationService.Common.Interfaces;
 using IDP.Core.ApplicationService.Common.Services.Credentials;
 using IDP.Core.ApplicationService.Users.Interfaces;
+using IDP.Core.Domain.Users.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,15 +14,21 @@ namespace IDP.Core.ApplicationService.Common.Services.Factory
 {
     public class CredentialTypeFactory : ICredentialTypeFactory, IApplicationService
     {
-        public ICredentialService GetType(CredentialType? type)
+        private readonly IReadOnlyCollection<ICredentialService> _services;
+
+        public CredentialTypeFactory(IEnumerable<ICredentialService> services)
         {
-            switch (type)
-            {
-                case CredentialType.Email:
-                    return new EmailCredentialService();
-                default:
-                    return null;
-            }
+            _services = services.ToList();
+        }
+
+        public ICredentialService GetType(CredentialType type)
+        {
+            var service = _services.FirstOrDefault(s => s.Type == type);
+
+            if (service is null)
+                throw new Exception($"Credential type '{type}' is not supported");
+
+            return service;
         }
     }
 }

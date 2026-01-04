@@ -1,4 +1,5 @@
 ﻿using IDP.Core.ApplicationService.Common.Enums;
+using IDP.Core.Domain.Users.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

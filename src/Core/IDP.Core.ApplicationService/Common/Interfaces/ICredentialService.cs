@@ -1,5 +1,7 @@
-﻿using IDP.Core.ApplicationService.Common.ResultPattern;
+﻿using IDP.Core.ApplicationService.Common.Enums;
+using IDP.Core.ApplicationService.Common.ResultPattern;
 using IDP.Core.ApplicationService.Users.DTOs.Register;
+using IDP.Core.Domain.Users.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +12,7 @@ namespace IDP.Core.ApplicationService.Common.Interfaces
 {
     public interface ICredentialService
     {
-        public Task<ApplicationResult<RegisterResponse>> Register(RegisterRequest request);
+        CredentialType Type { get; }
+        Task<ApplicationResult<RegisterResponse>> Register(RegisterRequest request);
     }
 }

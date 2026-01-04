@@ -11,6 +11,11 @@ public class User
     private readonly List<UserCredential> _userCredentials = new();
     public IReadOnlyCollection<UserCredential> UserCredentials => _userCredentials;
 
+    protected User()
+    {
+        
+    }
+
     public User(UserCredential credential)
     {
         TokenVersion = 1;

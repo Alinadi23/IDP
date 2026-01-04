@@ -32,11 +32,8 @@ namespace IDP.EndPoints.WebAPI.Extensions
 
             services.Scan(scan => scan
                 .FromAssemblies(assembly)
-                .AddClasses(c => c.Where(t =>
-                    t.IsClass &&
-                    !t.IsAbstract &&
-                    t.GetInterfaces().Any(i => i == typeof(IBaseRepository<>))
-                ))
+                .AddClasses(classes => classes
+                    .AssignableTo(typeof(IBaseRepository<>)))
                 .AsImplementedInterfaces()
                 .WithScopedLifetime());
 

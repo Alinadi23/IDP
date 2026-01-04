@@ -1,4 +1,5 @@
-﻿using IDP.Core.Domain.Users.Entities;
+﻿using IDP.Core.Domain.Common;
+using IDP.Core.Domain.Users.Entities;
 using IDP.Core.Domain.Users.Interfaces;
 using IDP.Infra.Persistence.Sql.Common;
 using Microsoft.EntityFrameworkCore;

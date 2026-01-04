@@ -1,4 +1,5 @@
 ﻿using IDP.Core.ApplicationService.Common.Enums;
+using IDP.Core.ApplicationService.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,29 +8,50 @@ using System.Threading.Tasks;
 
 namespace IDP.Core.ApplicationService.Common.ResultPattern
 {
-    public sealed class ApplicationResult<T> : IApplicationResult
+    public sealed class ApplicationResult : ApplicationResultBase
     {
-        public bool IsSuccess => State == ApplicationResultState.Ok;
-        public ApplicationResultState State { get; }
-        public List<Error> Errors { get; set; }
-        public T? Data { get; }
-        object? IApplicationResult.Data => Data;
-        public string? Message { get; }
-
-        public ApplicationResult(ApplicationResultState state, T? data = default, string? message = null)
+        private ApplicationResult(
+            ApplicationResultState state,
+            string? message = null,
+            IReadOnlyList<Error>? errors = null)
+            : base(state, message, errors)
         {
-            State = state;
-            Data = data;
-            Message = message;
         }
 
-        public static ApplicationResult<T> Success(T data)
-            => new ApplicationResult<T>(ApplicationResultState.Ok, data);
+        public static ApplicationResult Success()
+            => new(ApplicationResultState.Ok);
 
+        public static ApplicationResult Fail(
+            ApplicationResultState state,
+            string? message = null,
+            IReadOnlyList<Error>? errors = null)
+            => new(state, message, errors);
+    }
 
-        public static ApplicationResult<T> Fail(ApplicationResultState state, string? message = null)
-            => new ApplicationResult<T>(state, default, message);
+    public sealed class ApplicationResult<T> : ApplicationResultBase
+    {
+        public T? Value { get; }
 
+        public override object? Data => Value;
+
+        private ApplicationResult(
+            ApplicationResultState state,
+            T? value = default,
+            string? message = null,
+            IReadOnlyList<Error>? errors = null)
+            : base(state, message, errors)
+        {
+            Value = value;
+        }
+
+        public static ApplicationResult<T> Success(T value)
+            => new(ApplicationResultState.Ok, value, GeneralResource.OpeationSuccess);
+
+        public static ApplicationResult<T> Fail(
+            ApplicationResultState state,
+            string? message = null,
+            IReadOnlyList<Error>? errors = null)
+            => new(state, default, message, errors);
     }
 }
 

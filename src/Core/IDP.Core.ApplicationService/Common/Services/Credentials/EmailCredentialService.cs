@@ -14,32 +14,42 @@ namespace IDP.Core.ApplicationService.Common.Services.Credentials
 {
     public class EmailCredentialService : ICredentialService, IApplicationService
     {
+        public CredentialType Type => CredentialType.Email;
+
         private readonly IUserRepository _userRepository;
+
         public EmailCredentialService(IUserRepository userRepository)
         {
             _userRepository = userRepository;
         }
+
         public async Task<ApplicationResult<RegisterResponse>> Register(RegisterRequest request)
         {
             var viewModel = request.ViewModel;
-            var userExisted = await _userRepository.ExistsAsync(viewModel.Credential);
-            if (userExisted) 
+
+            if (await _userRepository.ExistsAsync(viewModel.Credential))
             {
-                return ApplicationResult<RegisterResponse>.Fail(ApplicationResultState.ValidationError, GeneralResource.DuplicateUser);
+                return ApplicationResult<RegisterResponse>
+                    .Fail(ApplicationResultState.ValidationError, GeneralResource.DuplicateUser);
             }
 
             var hasher = new PasswordHasher<object>();
-            string passwordHash = hasher.HashPassword(null, viewModel.Password);
+            var passwordHash = hasher.HashPassword(null, viewModel.Password);
 
-            var userCredential = new UserCredential(username: viewModel.Credential, loginType: LoginType.Email, 
-                identifier: EnumHelper.GetEnumDescription(LoginType.Email), passwordHash, passwordExpiredAt: null);
+            var credential = new UserCredential(
+                username: viewModel.Credential,
+                credentialType: CredentialType.Email,
+                credentialDescription: EnumHelper.GetEnumDescription(CredentialType.Email),
+                passwordHash: passwordHash,
+                passwordExpiredAt: null);
 
-            var user = new User(userCredential);
+            var user = new User(credential);
 
             await _userRepository.InsertAsync(user);
             await _userRepository.CommitAsync();
 
-            return null;
+            return ApplicationResult<RegisterResponse>.Success(new RegisterResponse());
+
         }
     }
 }

@@ -11,8 +11,8 @@ namespace IDP.Core.ApplicationService.Common.ResultPattern
     {
         bool IsSuccess { get; }
         ApplicationResultState State { get; }
-        public List<Error> Errors { get; set; }
-        object? Data { get; }
         string? Message { get; }
+        IReadOnlyList<Error>? Errors { get; }
+        object? Data { get; }
     }
 }

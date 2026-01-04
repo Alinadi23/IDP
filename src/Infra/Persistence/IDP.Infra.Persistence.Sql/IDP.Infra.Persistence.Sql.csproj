@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\IDP.Core.ApplicationService\IDP.Core.ApplicationService.csproj" />
     <ProjectReference Include="..\..\..\Core\IDP.Core.Domain\IDP.Core.Domain.csproj" />
   </ItemGroup>
 
